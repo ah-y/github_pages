@@ -69,3 +69,79 @@ Blockquotes can contain other Markdown formatted elements.
 You can organize items into ordered and unordered lists.
 
 ## Ordered Lists
+
+To create an ordered list, add line items with numbers followed by periods.  
+The numbers don't have to be in numerical order, but the list should start with the number one.
+1. first item
+1. second item
+    1. indented first
+    1. indented second.  
+
+Insert blank line to exit list. 
+
+## Unordered Lists
+
+To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items.  
+Indent one more items to create a nested list.
+
+- first
+- second
+- third
+    - indented first
+    - indented second
+        - more indented
+
+insert blank line to exit unordered list
+
+## Starting Unordered List Items with Numbers
+
+- 1968\.
+
+## Adding Elements in Lists
+
+- This is the first list item
+sa
+- this is the second list item.  
+indent indent indent
+    > A blockquote would  
+    
+- Code
+
+        let a = 9;
+
+### Image
+
+1. Open the file containing
+2. Marvel at its beauty
+
+    ![Tux, the Linux mascot]
+
+3. Close the file
+
+## Lists
+
+You can nest an unordered list in an ordered list, or vise versa.  
+
+1. f
+2. s
+    - nested
+    - two
+3. ?
+
+# Code
+
+At the command prompt, type
+
+```rust
+let a = 0;
+match a{
+    c if true=>c,
+    b @ 0..=8=>b,
+    _=>a
+}
+```
+
+## Escaping Backticks
+
+``Use `code` in your Markdown file.``
+
