@@ -183,9 +183,8 @@ the user hovers over the link. To add a title, enclose it in quotiation marks af
 
 # URLs and Email Addresses
 
-To quickly turn a URL or email into a link, enclose it in angle brackets.
-<twitter.com/9kv8xiyi10>
-Like this.
+To quickly turn a URL or email into a link, enclose it in angle brackets. 
+<https://twitter.com/9kv8xiyi10> Like this.
 
 # Formatting Links
 
@@ -193,7 +192,7 @@ To emphasize links, add asterisks before and after the backest and parentheses.
 To denote links as code, add backticks in the brackets.
 
 **[Bold Link](https://github.io/ww0l/github_pages)**
-*[Italic Link](nicovideo.jp)*
+*[Italic Link](https://www.nicovideo.jp "nicovideo.jp")*
 denote links as ['code'](#code)
 
 # Reference-Style Links
