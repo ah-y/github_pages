@@ -145,3 +145,36 @@ match a{
 
 ``Use `code` in your Markdown file.``
 
+# Code Blocks
+
+To create code blocks, indent every line of the block by at least four spaces or one tab.
+
+    let nv=Command::new();
+    for i in 0..2{
+        println!("{i}")
+    }
+
+Like this 
+
+# Horizontal Rules
+
+To create a horizontal rule, use three or more asterisks, dashes, or underscores on a line by themselves.  
+
+---
+
+This is horizontal rule:D
+
+# Links
+
+- It's the most efficient way to get modern "website" outlook. 
+
+---
+
+To create a link, enclose the link text in brackets and then follow it immediately with the URL in parentheses.  
+This is [Link!!](https://github.com/ww0l/playground)
+
+## Adding Titles
+
+You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotiation marks after the URL.
+
+[Where is here?](https://github.com/ww0l/playground "this is my tiny playground")
