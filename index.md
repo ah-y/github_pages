@@ -170,11 +170,34 @@ This is horizontal rule:D
 
 ---
 
-To create a link, enclose the link text in brackets and then follow it immediately with the URL in parentheses.  
+To create a link, enclose the link text in brackets and then 
+follow it immediately with the URL in parentheses.  
 This is [Link!!](https://github.com/ww0l/playground)
 
 ## Adding Titles
 
-You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotiation marks after the URL.
+You can optionally add a title for a link. This will appear as a tooltip when 
+the user hovers over the link. To add a title, enclose it in quotiation marks after the URL.
 
 [Where is here?](https://github.com/ww0l/playground "this is my tiny playground")
+
+# URLs and Email Addresses
+
+To quickly turn a URL or email into a link, enclose it in angle brackets.
+<twitter.com/9kv8xiyi10>
+Like this.
+
+# Formatting Links
+
+To emphasize links, add asterisks before and after the backest and parentheses.
+To denote links as code, add backticks in the brackets.
+
+**[Bold Link](https://github.io/ww0l/github_pages)**
+*[Italic Link](nicovideo.jp)*
+denote links as ['code'](#code)
+
+# Reference-Style Links
+
+Reference-style links are a special kind of link that make URLs easier to display and read in Markdown.
+Reference-style links are constructed in two parts: the part you keep inline with your text
+and the part you store somewhere else in the file to keep the text easy to read.
