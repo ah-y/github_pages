@@ -200,3 +200,7 @@ denote links as ['code'](#code)
 Reference-style links are a special kind of link that make URLs easier to display and read in Markdown.
 Reference-style links are constructed in two parts: the part you keep inline with your text
 and the part you store somewhere else in the file to keep the text easy to read.
+
+## Formatting the First Part of the Links
+
+The first part of a reference-style
