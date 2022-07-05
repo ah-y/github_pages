@@ -203,4 +203,17 @@ and the part you store somewhere else in the file to keep the text easy to read.
 
 ## Formatting the First Part of the Links
 
-The first part of a reference-style
+The first part of a reference-style link is formatted with two sets of brackets.
+The first set of brackets surrounds the text that should appear linked.
+The second set of brackets displays a label used to point to the link you’re storing elsewhere in your document.
+
+Although not required, you can include a space between the first and second set of brackets.
+The label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.
+
+[like this][ref]
+
+[ref]:https://github.com/ww0l "hello"
+
+# Images
+
+To add an image, add an exclamation mark (!), followed by
