@@ -216,4 +216,15 @@ The label in the second set of brackets is not case sensitive and can include le
 
 # Images
 
-To add an image, add an exclamation mark (!), followed by
+To add an image, add an exclamation mark (!), followed by alt text in brackets,
+and the path or URL to the image asset in parentheses.
+You can optionally add a title in quotation marks after the path or URL.
+
+![my icon picture. maybe](A18210E2-3051-4167-92CB-4323D887276C.png)
+
+## Linking Images
+
+To add a link to an image, enclose the Markdown for the image in brackets,
+and then add the link in parentheses.
+
+[![my icon again..](A18210E2-3051-4167-92CB-4323D887276C.png "icoooon")](https://github.com/ww0l)
