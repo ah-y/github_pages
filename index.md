@@ -251,3 +251,28 @@ To use HTML, place the tags in the text of your markdown-formatted file.
 For security reasons, not all Markdown applications support HTML in Markdown documents.
 When in doubt, check your markdown application's documentation.
 Some applications support only a subset of HTML tags
+
+---
+
+# Extra syntax
+
+---
+
+# Tables
+
+to add a table, use three or more hyphns to create each column's header,
+and use pipes (|) to separate each column.
+For compatibility, you should also add a pipe on eihter end of the row.
+
+|Syntax|Desc|
+|---:|:---:|
+|Head|Til|
+|Paragraph|Text|
+|Table|`2D`|
+
+you can align by adding a colon (:) to the reft, right, or both
+
+# Footnotes
+
+This is footnotes[^1]
+[^1]: This is the first footnote
