@@ -228,3 +228,26 @@ To add a link to an image, enclose the Markdown for the image in brackets,
 and then add the link in parentheses.
 
 [![my icon again..](A18210E2-3051-4167-92CB-4323D887276C.png "icoooon")](https://github.com/ww0l)
+
+# Escaping Characters
+
+to display a literal character that would otherwise be used to format text in a
+Markdown document, add a backslash (\) in front of the cahracter  
+\* without the backslash, this would be an unordered list
+
+# HTML
+
+Many Markdown applications allow you to use HTML tags in Markdown-formatted text. 
+This is helpful if you prefer certain HTML tags to Markdown syntax.
+For example, some people find it easier to use HTML is also helpful when you need to
+change tha attributes of an element, like specifying the color of text or changing the width of an image.
+
+To use HTML, place the tags in the text of your markdown-formatted file.
+
+>This **word** is bold. This <em>word</em> is italic.
+
+# HTML Best Practices
+
+For security reasons, not all Markdown applications support HTML in Markdown documents.
+When in doubt, check your markdown application's documentation.
+Some applications support only a subset of HTML tags
