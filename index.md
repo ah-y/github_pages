@@ -220,14 +220,14 @@ To add an image, add an exclamation mark (!), followed by alt text in brackets,
 and the path or URL to the image asset in parentheses.
 You can optionally add a title in quotation marks after the path or URL.
 
-![my icon picture. maybe](A18210E2-3051-4167-92CB-4323D887276C.png)
+![my icon picture. maybe](src/icon.png)
 
 ## Linking Images
 
 To add a link to an image, enclose the Markdown for the image in brackets,
 and then add the link in parentheses.
 
-[![my icon again..](A18210E2-3051-4167-92CB-4323D887276C.png "icoooon")](https://github.com/ww0l)
+[![my icon again..](src/icon.png "icoooon")](https://github.com/ah-y)
 
 # Escaping Characters
 
@@ -275,4 +275,5 @@ you can align by adding a colon (:) to the reft, right, or both
 # Footnotes
 
 This is footnotes[^1]
+
 [^1]: This is the first footnote
