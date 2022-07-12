@@ -280,3 +280,8 @@ you can align by adding a colon (:) to the reft, right, or both
 This is footnotes[^1]
 
 [^1]: This is the first footnote
+
+# Check Box
+
+- [ ] this is check box which is not checked
+- [x] this is check box which is checked
