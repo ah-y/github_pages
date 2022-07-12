@@ -1,4 +1,4 @@
-sub repo project
+## sub repo project
 [notions](notions/)
 
 # index.md
